@@ -1,0 +1,55 @@
+body {
+  background-color: darkgrey;
+  height: 100%;
+  width: 100%;
+}
+/* Make Nav Sticky */
+.header {
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: salmon;
+  color: white;
+}
+
+.logo-container img {
+  height: 50px;
+  width: 135px;
+}
+nav {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  color: yellow;
+}
+
+content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 200px;
+}
+
+content h1 {
+}
+
+content h2 {
+}
+
+.content-btn {
+  border-radius: 15px;
+  background-color: yellow;
+  color: white;
+  height: 50px;
+  width: 150px;
+}
